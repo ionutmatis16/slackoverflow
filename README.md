@@ -2,7 +2,7 @@
 Stack Overflow like application for Software Design laboratory.
 The application is separated in 3 versions: 
  * v1 - back-end, using Java as the main programming language together with technologies like Spring Boot, JDBC, Hibernate and MySQL.
- * v2 - to be done
+ * v2 - front-end, using React library and Bootstrap for styling
  * v3 - to be done
  
 ## Functionalities
@@ -19,3 +19,8 @@ The application is separated in 3 versions:
  * database initialization using Flyway
  * it has no U.I. - just a console application
  
+## v2 - front-end
+ * Model View Presenter architecture
+ * uses Observer design pattern to notify the views if the model has changed
+ * it has no back-end for persistence, it holds the state in the memory
+ * uses React Router for handling the routing
