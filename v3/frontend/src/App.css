@@ -1,0 +1,76 @@
+.myButton {
+    color: #f7f9fb !important;
+    margin-right: 0.5em;
+    background-color: #31708e !important;
+}
+
+.mySearch {
+    background-color: #f7f9fb !important;
+}
+
+.answerSubmitButton {
+    background-color: #8fc1e3 !important;
+    color: #ffffff !important;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.askButtonClass {
+    background-color: #5085a5 !important;
+    color: #f7f9fb !important;
+}
+
+
+.askQuestionForm {
+    padding-top: 10px !important;
+    margin: auto !important;
+    width: 70% !important;
+}
+
+.card {
+    margin: auto !important;
+    width: 90% !important;
+}
+
+.myCard {
+    margin: auto !important;
+    width: 100% !important;
+    background-color: #f7f9fb !important;
+}
+
+
+.tagButton {
+    background-color: #8fc1e3 !important;
+    color: #ffffff !important;
+    margin-right: 10px;
+}
+
+.myNavbar {
+    background-color: #8fc1e3 !important;
+}
+
+.jumbotron {
+    margin-top: 100px !important;
+    background-color: #e7f5ff !important;
+}
+
+#loggedIn {
+    padding-right: 10px;
+    color: #ffffff
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.fakeLink:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.vote:hover {
+    color: #8fc1e3;
+    cursor: pointer;
+}

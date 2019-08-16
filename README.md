@@ -1,9 +1,9 @@
 # Slack Overflow
-Stack Overflow like application for Software Design laboratory.
+Stack Overflow like application for Software Design laboratory. I was guided by [Serban Petrescu](http://serban-petrescu.github.io/) Teaching Assistant.
 The application is separated in 3 versions: 
- * v1 - back-end, using Java as the main programming language together with technologies like Spring Boot, JDBC, Hibernate and MySQL.
+ * v1 - back-end, using Java as the main programming language together with technologies like Spring Boot, JDBC, Hibernate and MySQL
  * v2 - front-end, using React library and Bootstrap for styling
- * v3 - to be done
+ * v3 - unifies both back-end and fontend, exposing a REST API on server and consuming it on client
  
 ## Functionalities
  * The users are able to ask questions and add tags to them.
@@ -24,3 +24,9 @@ The application is separated in 3 versions:
  * uses Observer design pattern to notify the views if the model has changed
  * it has no back-end for persistence, it holds the state in the memory
  * uses React Router for handling the routing
+ 
+## v3 - links back-end with front-end
+ * Client - Server architecture
+ * exposes a REST API from the server and consuming it on the client
+ * uses the command design pattern on server
+ * protects the API using HTTP Basic Authentication
